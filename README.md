@@ -1,10 +1,9 @@
-# Dynamic Web Apps with Rack
+# Dynamic Web Apps
 
-## Learning
+## Learning Goals
 
 - Translate a command line Ruby app to a dynamic web app
-- Use the `#write` method in a `Rack::Response` object to make a dynamic web app
-   in Rack
+- Use the `#write` method in a `Rack::Response` object to make a dynamic web app in Rack
 
 ## Creating a Dynamic Web App
 
