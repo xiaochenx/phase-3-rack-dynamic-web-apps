@@ -38,16 +38,6 @@ Make note of `port=9292` — that shows which port we'll access the application 
 in the browser. But what's the host? If we're developing locally, we can just
 use `localhost` — so in this case we'd visit `http://localhost:9292`.
 
-If we're using the IDE, we should also see a line like
-
-```shell
-Starting server at 104.131.138.76:6868
-```
-
-That is the full URL to use. (**Yours will most likely be different!**) So in
-this case, we'd visit `http://104.131.138.76:6868` in the browser. If we're using
-the IDE, **localhost will not work**.
-
 When we visit the appropriate URL in our browser, we should see "Hello, World".
 Let's liven things up a bit. The amazing part of Rack and everything (like
 Rails) that is built on top of Rack is that it's *just Ruby*. If you were
